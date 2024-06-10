@@ -1,4 +1,4 @@
-<mxfile modified="2024-06-10T06:26:21.376Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="gXIMs1V8iDr1aROIm1y8" version="24.5.2" type="github">
+<mxfile modified="2024-06-10T06:27:29.065Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="iXDHnYVItHLYf82ZY2IH" version="24.5.2" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1224" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -35,6 +35,17 @@
         </object>
         <mxCell id="GdiNVlwVZk-JOjfLRX_1-3" value="Permission1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.permissions;" vertex="1" parent="UEzPUAAOIrF-is8g5C7q-205">
           <mxGeometry x="376.5" y="12.5" width="37.76" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="GdiNVlwVZk-JOjfLRX_1-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="UEzPUAAOIrF-is8g5C7q-205" source="GdiNVlwVZk-JOjfLRX_1-4" target="GdiNVlwVZk-JOjfLRX_1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GdiNVlwVZk-JOjfLRX_1-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="UEzPUAAOIrF-is8g5C7q-205" source="GdiNVlwVZk-JOjfLRX_1-4" target="GdiNVlwVZk-JOjfLRX_1-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="366" y="80" />
+              <mxPoint x="366" y="116" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="GdiNVlwVZk-JOjfLRX_1-4" value="Roles&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.role;" vertex="1" parent="UEzPUAAOIrF-is8g5C7q-205">
           <mxGeometry x="285.5" y="60" width="70.02" height="39.5" as="geometry" />
