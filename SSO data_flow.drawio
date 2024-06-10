@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-10T07:04:27.751Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="u3wvScVgVsgRiFWC9GW9" version="24.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-10T16:40:09.916Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="am87n80GWAomjDpJLjsT" version="24.5.2" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1224" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -37,10 +37,10 @@
             <mxPoint x="670" y="230" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NvditxgQZ3IEwgTeSZPP-1" value="IDP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="NvditxgQZ3IEwgTeSZPP-1" value="IDP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="630" y="40" width="100" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="NvditxgQZ3IEwgTeSZPP-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="NvditxgQZ3IEwgTeSZPP-1">
+        <mxCell id="NvditxgQZ3IEwgTeSZPP-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="NvditxgQZ3IEwgTeSZPP-1" vertex="1">
           <mxGeometry x="45" y="80" width="10" height="170" as="geometry" />
         </mxCell>
         <mxCell id="aM9ryv3xv72pqoxQDRHE-7" value="SP initiated SSO call flow" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="aM9ryv3xv72pqoxQDRHE-6" target="aM9ryv3xv72pqoxQDRHE-2" edge="1">
@@ -59,7 +59,7 @@
             <mxPoint x="175" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NvditxgQZ3IEwgTeSZPP-3" value="IDP sign in page" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="NvditxgQZ3IEwgTeSZPP-1">
+        <mxCell id="NvditxgQZ3IEwgTeSZPP-3" value="IDP sign in page" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" target="NvditxgQZ3IEwgTeSZPP-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="603" y="200" as="targetPoint" />
             <Array as="points">
@@ -68,26 +68,26 @@
             <mxPoint x="360" y="200" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NvditxgQZ3IEwgTeSZPP-4" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1" target="aM9ryv3xv72pqoxQDRHE-5">
+        <mxCell id="NvditxgQZ3IEwgTeSZPP-4" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" parent="1" target="aM9ryv3xv72pqoxQDRHE-5" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="74.5" y="280" as="sourcePoint" />
             <mxPoint x="295" y="280" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NvditxgQZ3IEwgTeSZPP-5" value="Auth success, return sessionTicket" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NvditxgQZ3IEwgTeSZPP-4">
+        <mxCell id="NvditxgQZ3IEwgTeSZPP-5" value="Auth success, return sessionTicket" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NvditxgQZ3IEwgTeSZPP-4" vertex="1" connectable="0">
           <mxGeometry x="-0.1465" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NvditxgQZ3IEwgTeSZPP-6" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="NvditxgQZ3IEwgTeSZPP-6" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="340" y="294" as="sourcePoint" />
             <mxPoint x="75" y="294" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NvditxgQZ3IEwgTeSZPP-7" value="redirect to app&#39;s home page" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NvditxgQZ3IEwgTeSZPP-6">
+        <mxCell id="NvditxgQZ3IEwgTeSZPP-7" value="redirect to app&#39;s home page" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NvditxgQZ3IEwgTeSZPP-6" vertex="1" connectable="0">
           <mxGeometry x="-0.0038" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
