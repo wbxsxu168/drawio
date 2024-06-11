@@ -1,13 +1,13 @@
-<mxfile modified="2024-06-11T22:47:18.512Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="hpfEnOHuC-WPAsCfxXHd" version="24.5.2" type="github">
+<mxfile modified="2024-06-11T22:52:34.986Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="kwAFYMfIjbK4rLkA75K1" version="24.5.2" type="github">
   <diagram id="l2aKFoh6-Bn0gOPZ2l0T" name="Page-1">
     <mxGraphModel dx="1224" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="-xwRFm0Tx_RUN6PoLPQu-6" value="ASA&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=mxgraph.cisco.security.pix_firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="550" y="50" width="77" height="51" as="geometry" />
+          <mxGeometry x="547" y="10" width="77" height="51" as="geometry" />
         </mxCell>
-        <mxCell id="-xwRFm0Tx_RUN6PoLPQu-9" value="" style="shape=mxgraph.cisco.directors.localdirector;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="-xwRFm0Tx_RUN6PoLPQu-9" value="LB" style="shape=mxgraph.cisco.directors.localdirector;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="546" y="150" width="78" height="51" as="geometry" />
         </mxCell>
         <mxCell id="-xwRFm0Tx_RUN6PoLPQu-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="-xwRFm0Tx_RUN6PoLPQu-11">
@@ -140,6 +140,9 @@
         </mxCell>
         <mxCell id="-xwRFm0Tx_RUN6PoLPQu-55" value="&lt;span style=&quot;color: rgb(88, 88, 91); font-family: CiscoSans, Arial, sans-serif; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;3-tier Segregation using VLANs&lt;/span&gt;" style="label;whiteSpace=wrap;html=1;align=center;verticalAlign=bottom;spacingLeft=0;spacingBottom=4;imageAlign=center;imageVerticalAlign=top;image=img/clipart/Gear_128x128.png" vertex="1" parent="1">
           <mxGeometry x="230" y="10" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-xwRFm0Tx_RUN6PoLPQu-56" value="LB-vip" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="120" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
