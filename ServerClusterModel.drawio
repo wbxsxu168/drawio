@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-12T00:58:24.770Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="3I_nSyQoT7Ocknq-iwwe" version="24.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-12T01:02:37.899Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="pSDtfsPhLSzQzEB4ilnO" version="24.5.2" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="1224" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -96,10 +96,16 @@
         <mxCell id="5XrPmiacQ2J8eGIi3jUt-2279" value="Backend&amp;nbsp;&lt;div&gt;high speed fabric&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Service_Fabric_Clusters.svg;" vertex="1" parent="1">
           <mxGeometry x="347" y="100" width="67" height="64" as="geometry" />
         </mxCell>
+        <mxCell id="5XrPmiacQ2J8eGIi3jUt-2299" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="1" source="5XrPmiacQ2J8eGIi3jUt-2284" target="5XrPmiacQ2J8eGIi3jUt-2297">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5XrPmiacQ2J8eGIi3jUt-2284" value="master nodes" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.server_farm;fillColor=#DA4026;" vertex="1" parent="1">
           <mxGeometry x="278" y="480" width="56" height="49" as="geometry" />
         </mxCell>
         <mxCell id="5XrPmiacQ2J8eGIi3jUt-2290" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="1" source="5XrPmiacQ2J8eGIi3jUt-2285" target="5XrPmiacQ2J8eGIi3jUt-2268">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5XrPmiacQ2J8eGIi3jUt-2300" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="1" source="5XrPmiacQ2J8eGIi3jUt-2285" target="5XrPmiacQ2J8eGIi3jUt-2298">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5XrPmiacQ2J8eGIi3jUt-2285" value="master nodes" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.server_farm;fillColor=#DA4026;" vertex="1" parent="1">
@@ -125,6 +131,15 @@
         </mxCell>
         <mxCell id="5XrPmiacQ2J8eGIi3jUt-2294" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.server_farm;fillColor=#7FBA42;" vertex="1" parent="1">
           <mxGeometry x="146" y="529" width="56" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="5XrPmiacQ2J8eGIi3jUt-2297" value="" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="202" y="640" width="101" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5XrPmiacQ2J8eGIi3jUt-2298" value="" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="435" y="640" width="101" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5XrPmiacQ2J8eGIi3jUt-2301" value="Front end&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Front_Doors.svg;" vertex="1" parent="1">
+          <mxGeometry x="347" y="646" width="50" height="44" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
