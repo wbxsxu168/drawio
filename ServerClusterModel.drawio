@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-12T01:02:37.899Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="pSDtfsPhLSzQzEB4ilnO" version="24.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-12T01:03:41.252Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="jrZqwkZh-vsVHd1sIGDm" version="24.5.2" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="1224" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -140,6 +140,9 @@
         </mxCell>
         <mxCell id="5XrPmiacQ2J8eGIi3jUt-2301" value="Front end&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Front_Doors.svg;" vertex="1" parent="1">
           <mxGeometry x="347" y="646" width="50" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="5XrPmiacQ2J8eGIi3jUt-2302" value="Access" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="78" y="390" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
