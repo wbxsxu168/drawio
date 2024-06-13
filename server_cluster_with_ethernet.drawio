@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-13T02:39:59.265Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="W92A3QnFq5QGCKzS71PX" version="24.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-13T02:45:01.861Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="RZ1XhG4YeAZ8g2fgKFy0" version="24.5.3" type="github">
   <diagram name="Page-1" id="822b0af5-4adb-64df-f703-e8dfc1f81529">
     <mxGraphModel dx="2324" dy="1588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -210,7 +210,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rNgzCEydJQi0zjgkLkP2-56" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Scale upto 8 access nodes&lt;br&gt;max 288 servers per node&lt;br&gt;max server #: 288x8=2334&lt;/font&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;8x10G/288=277Mbps per server&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;8.4:1 oversubscription ratio&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.stickyNote2;fontColor=#666666;mainText=;fontSize=17;whiteSpace=wrap;fillColor=#ffffcc;strokeColor=#F62E00;" parent="1" vertex="1">
-          <mxGeometry x="775" y="450" width="275" height="140" as="geometry" />
+          <mxGeometry x="764" y="450" width="275" height="140" as="geometry" />
         </mxCell>
         <mxCell id="kgxJePqGxtui9cHz7qdS-1" value="WAN(MPLS,Broadband, SD-WAN)" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.2d.wan_accelerator;" vertex="1" parent="1">
           <mxGeometry x="440" y="180" width="192" height="50" as="geometry" />
@@ -223,7 +223,7 @@
             <mxPoint x="860" y="295.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kgxJePqGxtui9cHz7qdS-3" value="ASA" style="shape=mxgraph.cisco.misc.asa_5500;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="kgxJePqGxtui9cHz7qdS-3" value="ASA+router" style="shape=mxgraph.cisco.misc.asa_5500;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="506.5" y="262.25" width="59" height="67" as="geometry" />
         </mxCell>
         <mxCell id="kgxJePqGxtui9cHz7qdS-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;" edge="1" parent="1" source="kgxJePqGxtui9cHz7qdS-1" target="kgxJePqGxtui9cHz7qdS-3">
@@ -259,7 +259,7 @@
         <mxCell id="kgxJePqGxtui9cHz7qdS-18" value="PLC 1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.iot_thing_plc;" vertex="1" parent="1">
           <mxGeometry x="639" y="33.25" width="43.65" height="43.65" as="geometry" />
         </mxCell>
-        <mxCell id="kgxJePqGxtui9cHz7qdS-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kgxJePqGxtui9cHz7qdS-20" target="kgxJePqGxtui9cHz7qdS-1">
+        <mxCell id="kgxJePqGxtui9cHz7qdS-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kgxJePqGxtui9cHz7qdS-41" target="kgxJePqGxtui9cHz7qdS-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kgxJePqGxtui9cHz7qdS-30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kgxJePqGxtui9cHz7qdS-20" target="kgxJePqGxtui9cHz7qdS-15">
@@ -299,6 +299,18 @@
         </mxCell>
         <mxCell id="kgxJePqGxtui9cHz7qdS-38" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/iconoir-vol-1/24/antenna-128.png" vertex="1" parent="1">
           <mxGeometry x="490" y="110" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kgxJePqGxtui9cHz7qdS-42" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kgxJePqGxtui9cHz7qdS-20" target="kgxJePqGxtui9cHz7qdS-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="755" y="69" as="sourcePoint" />
+            <mxPoint x="576" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kgxJePqGxtui9cHz7qdS-41" value="DNP3 or OPC" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="639" y="120" width="111" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kgxJePqGxtui9cHz7qdS-44" value="MODBUS" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="570" y="120" width="54" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
