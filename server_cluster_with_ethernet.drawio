@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-13T02:45:01.861Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="RZ1XhG4YeAZ8g2fgKFy0" version="24.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-13T02:45:50.590Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="ikmTc3RN92sWHUbXAk8o" version="24.5.3" type="github">
   <diagram name="Page-1" id="822b0af5-4adb-64df-f703-e8dfc1f81529">
-    <mxGraphModel dx="2324" dy="1588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1224" dy="1588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -230,19 +230,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kgxJePqGxtui9cHz7qdS-10" value="Available Zone1&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="120" width="110" height="20" as="geometry" />
+          <mxGeometry y="270" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="kgxJePqGxtui9cHz7qdS-33" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kgxJePqGxtui9cHz7qdS-13" target="kgxJePqGxtui9cHz7qdS-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kgxJePqGxtui9cHz7qdS-13" value="Sensor 1" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#A153A0;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0,0.5,0],[0.125,0.25,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[0.875,0.25,0],[1,0.5,0],[0.875,0.75,0],[0.75,1,0],[0.5,1,0],[0.125,0.75,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=mxgraph.cisco_safe.design.blank_device;resIcon=mxgraph.cisco_safe.design.sensor;" vertex="1" parent="1">
-          <mxGeometry x="652" y="-64" width="49" height="46" as="geometry" />
+          <mxGeometry x="652" y="-56" width="49" height="46" as="geometry" />
         </mxCell>
         <mxCell id="kgxJePqGxtui9cHz7qdS-14" value="Actuator 1" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#6ABD46;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.085,0.085,0],[0.915,0.085,0],[0.915,0.915,0],[0.085,0.915,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=mxgraph.cisco_safe.architecture.generic_appliance;resIcon=mxgraph.cisco_safe.architecture.actuator;" vertex="1" parent="1">
           <mxGeometry x="449" y="-60" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="kgxJePqGxtui9cHz7qdS-15" value="Actuator2" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.actuator;" vertex="1" parent="1">
-          <mxGeometry x="775" y="-70" width="46.15" height="50" as="geometry" />
+          <mxGeometry x="878.43" y="-60" width="46.15" height="50" as="geometry" />
         </mxCell>
         <mxCell id="kgxJePqGxtui9cHz7qdS-16" value="Sensor 2" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sensor;fillColor=#5294CF;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="260" y="-60" width="50" height="50" as="geometry" />
