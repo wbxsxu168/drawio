@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-13T02:51:45.507Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="WBmNvwP1sH19507vVOxM" version="24.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-13T02:52:34.701Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="zE-4kiZxYzHHEmzRNQtw" version="24.5.3" type="github">
   <diagram name="Page-1" id="822b0af5-4adb-64df-f703-e8dfc1f81529">
     <mxGraphModel dx="1224" dy="1588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -209,7 +209,7 @@
         <mxCell id="rNgzCEydJQi0zjgkLkP2-54" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.95;entryY=0.94;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;" parent="1" source="rNgzCEydJQi0zjgkLkP2-45" target="rNgzCEydJQi0zjgkLkP2-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kgxJePqGxtui9cHz7qdS-1" value="WAN(MPLS,Broadband, SD-WAN)" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.2d.wan_accelerator;" vertex="1" parent="1">
+        <mxCell id="kgxJePqGxtui9cHz7qdS-1" value="WAN(MPLS,Broadband, SD-WAN, 4G/5G)" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.2d.wan_accelerator;" vertex="1" parent="1">
           <mxGeometry x="440" y="180" width="192" height="50" as="geometry" />
         </mxCell>
         <mxCell id="kgxJePqGxtui9cHz7qdS-2" value="DMZ" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.hosted_zone;fillColor=#F58536;gradientColor=none;" vertex="1" parent="1">
